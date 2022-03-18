@@ -1,0 +1,44 @@
+#wrapper {
+    height: 880px;
+    width: 1089px;
+    background-color: rgb(189, 201, 81);
+}
+
+header {
+    height: 80px;
+    font-size: 75px;
+    border:1px solid black;
+}
+
+.menu {
+    height: 80px;
+    border:1px solid black;
+    font-size: 75px;
+}
+
+.box {
+    height: 640px;
+    border:1px solid black;
+}
+
+nav {
+    height: 640px;
+    width: 25%;
+    border:1px solid black;
+    float: left;
+    font-size: 75px;
+}
+
+section {
+    height: 640px;
+    width: 25%;
+    border:1px solid black;
+    float: right;
+    font-size: 75px;
+}
+
+footer {
+    height: 80px;
+    border:1px solid black;
+    font-size: 75px;
+}

@@ -1,0 +1,58 @@
+#wrapper {
+    height: 800px;
+    width: 2000px;
+    background-color:rgb(128, 128, 216);
+}
+
+header {
+    height: 80px;
+    border:1px solid black;
+    font-size: 75px;
+}
+
+.box {
+    height: 640px;
+    border:1px solid black;
+}
+
+nav {
+    height: 640px;
+    width: 498px;
+    float: left;
+    font-size: 75px;
+  
+}
+
+section {
+    height: 640px;
+    width:1498px;
+    font-size: 75px;
+    float: left;
+    border:1px solid black;
+}
+h1{
+    font-size:75px;
+    margin:0 0 0 5%;
+    
+}
+.leftarticle{
+    height: 490px;
+    width:75px;
+    float:left;
+    
+    
+}
+.article {
+    height: 490px;
+    width:1348px;
+    background-color:rgb(223, 228, 201);
+    float: left;
+    padding-left:20px;
+    border:1px solid black;
+}
+
+footer {
+    height: 80px;
+    font-size: 75px;
+    border:1px solid black;
+}

@@ -1,0 +1,38 @@
+#wrapper {
+    height: 800px;
+    width: 1089px;
+    background-color:rgb(143, 191, 150);
+    
+}
+
+header {
+    height: 80px;
+    font-size: 75px;
+    border:1px solid black;
+    
+}
+.box{
+    height: 640px;
+}
+
+nav {
+    height: 640px;
+    width: 25%;
+    float: left;
+    font-size: 75px;
+    border:1px solid black;
+}
+
+section {
+    height: 640px;
+    width: 25%;
+    float: right;
+    font-size: 75px;
+    border:1px solid black;
+}
+
+footer {
+    height: 80px;
+    font-size: 75px;
+    border:1px solid black;
+}

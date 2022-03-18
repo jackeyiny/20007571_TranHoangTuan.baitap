@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px auto;
+        }
+        body{
+            background-image: url(../IMG/background.jpg);
+        }
+        .clear{
+            clear:both;
+        }
+        .wrapper{
+            height:auto;
+            width:1089px;
+            background-color:antiquewhite;
+        }
+        nav{
+            height:50px;
+            width: 1089px;
+            background-color:rgb(204, 240, 213);
+            line-height:50px;
+        }
+        header{
+            width:1089px;
+            height:150px;
+            background-image: url(../IMG/header.jpg);
+        }
+        content{
+            height: 300px;
+            width: 1089px;
+            background-color:bisque;
+        }
+        footer{
+            width: 100%;
+            height: 130px;
+            background-color:brown;
+        }
+        aside{
+            width: 40%;
+            height: 300px;
+            background-color:aqua;
+            float:left;    
+        }
+        section{
+            width: 58%;
+            height: 300px;
+            background-color:rgb(218, 218, 13);
+            float:left;
+        }
+        .menu li{
+            float:left;
+            height: 100%;
+            width: 150px;
+            list-style: none;
+            text-indent: 16px;
+            background-color: rgb(204, 240, 213);
+        }
+        a{
+            color: blue;
+            text-decoration:none;
+        }
+        .menu li:hover{
+            background-color:bisque;
+        }
+        li:hover>a{
+            color: gray;
+        }
+        .menu li .submenu{
+            display:none;
+        }
+        .menu li:hover .submenu{
+            display: block;
+        }
+        nav span form #txtEmail{
+            padding:3px;
+            margin-right: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a>
+                    <ul class="submenu">
+                        <li><a href=""></a>item1</li>
+                        <li><a href=""></a>item2</li>
+                        <li><a href=""></a>item3</li>
+                     </ul>
+                </li>
+                <li><a href="">SERVICES</a>
+                    <ul class="submenu">
+                        <li><a href=""></a>item1</li>
+                        <li><a href=""></a>item2</li>
+                        <li><a href=""></a>item3</li>
+                     </ul>
+                </li>
+                <li><a href="">CONTACT</a>
+                    <ul class="submenu">
+                        <li><a href=""></a>item1</li>
+                        <li><a href=""></a>item2</li>
+                        <li><a href=""></a>item3</li>
+                     </ul>
+                </li>
+                <li><a href="">ABOUT</a>
+                    <ul class="submenu">
+                        <li><a href=""></a>item1</li>
+                        <li><a href=""></a>item2</li>
+                        <li><a href=""></a>item3</li>
+                     </ul>
+                </li>
+                <li><a href="">HELP</a>
+                    <ul class="submenu">
+                        <li><a href=""></a>item1</li>
+                        <li><a href=""></a>item2</li>
+                        <li><a href=""></a>item3</li>
+                     </ul>
+                </li>
+            </ul>
+            <span>
+                <form action="dangky.php" method="post">
+                    <label for="Email">Email: </label>
+                    <input type="Email" name="txtEmail" id="txtEmail" placeholder="nhap Email" required>
+                    <input type="submit" value="GO" style="border-radius:50%;">
+                </form>
+            </span>
+        </nav>
+        <header></header>
+        <div class="clear"></div>
+        <div class="content">
+            <aside>
+                <article>
+                    <h1>HOAT DONG 1</h1>
+                </article>
+                <article>
+                    <h1>HOAT DONG 2</h1>
+                </article>
+                <article>
+                    <h1> HOAT DONG 3</h1>
+                </article>
+            </aside>
+            <section style="margin:10px;">
+                <h1 style="text-align: center;">DANG KY THONG TIN LAM CCCD</h1>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Thong tin cua ban</legend>
+                        <label for="lblHoTen">Ho Ten:</label>
+                        <input type="text" name="txtHoTen" required placeholder="Ho Ten"><br><br>
+                        <label for="lblSCMND">So CMND:</label>
+                        <input type="text" name="txtCMND" required placeholder="So CMND"><br><br>
+                        <label for="lblDC">Dia chi:</label>
+                        <input type="text" name="txtDC" required placeholder="Dia chi"><br><br>
+                        <label for="lblEmail">Dia chi Email:</label>
+                        <input type="text" name="txtEmail" required placeholder="Dia chi Email"><br><br>
+                        <input type="submit" value="Dang Ky">
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+        <div class="clear"></div>
+        <footer></footer>
+    </div>
+</body>
+</html>

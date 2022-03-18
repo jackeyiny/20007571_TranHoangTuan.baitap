@@ -1,0 +1,49 @@
+#wrapper{
+    height:800px;
+    width:2000px;
+    background-color:rgb(108, 223, 141);
+}
+header{
+    height: 80px;
+   font-size: 40px;
+    border:1px solid black;
+    padding-left: 10px;
+}
+nav{
+    height: 40px;
+    font-size: 40px;
+    border:1px solid black;
+    padding-left: 10px;
+}
+section {
+    height: 600px;
+    width:2000px;
+    font-size: 40px;
+    border:1px solid black;
+}
+h1{
+    font-size:40px;
+    margin:0 0 0 35px;
+    
+}
+.leftarticle{
+    height: 530px;
+    width:35px;
+    float:left;
+    
+    
+}
+.article {
+    height: 520px;
+    width:1920px;
+    background-color:rgb(223, 228, 201);
+    float: left;
+    padding-left:20px;
+    border:1px solid black;
+}
+footer {
+    height: 80px;
+    font-size: 40px;
+    border:1px solid black;
+    padding-left: 10px;
+}

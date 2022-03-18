@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0px;
+        margin:auto;
+    }
+    .wrapper{
+        height: 200px;
+        width: 1089px;
+        background-color:antiquewhite;
+    }
+    nav{
+        height: 50px;
+        width: 1089px;
+        background-color:aqua;
+    }
+    
+    .menu li{
+        height: 50px;
+        width:217.5px;
+        background-color:rgb(54, 171, 132);
+        float:left;
+        line-height: 50px;
+        list-style-type:none;
+        text-indent: 20px;
+    }
+    a{
+        color: blue;
+        font-weight:bold;
+        font-size: large;
+        text-decoration:none;
+    }
+    .menu li:hover{
+        background-color: gainsboro;
+    }
+    li:hover>a{
+        color: red;
+    }
+    .menu li .submenu{
+        display: none;
+    }
+    .menu li:hover .submenu{display: block}
+</style>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="">menu1</a>
+                    <ul class="submenu">
+                        <li><a href="">menu1.1</a>
+                        <a href="">menu1.2</a>
+                        <a href="">menu1.3</a></li>
+                    </ul></li>
+                <li><a href="">menu2</a>
+                    <ul class="submenu">
+                        <li><a href="">menu2.1</a></li>
+                        <li><a href="">menu2.2</a></li>
+                        <li><a href="">menu2.3</a></li>
+                    </ul></li>
+                <li><a href="">menu3</a>
+                    <ul class="submenu">
+                        <li><a href="">menu3.1</a></li>
+                        <li><a href="">menu3.2</a></li>
+                        <li><a href="">menu3.3</a></li>
+                    </ul></li>
+                <li><a href="">menu4</a>
+                    <ul class="submenu">
+                        <li><a href="">menu4.1</a></li>
+                        <li><a href="">menu4.2</a></li>
+                        <li><a href="">menu4.3</a></li>
+                    </ul></li>
+                <li><a href="">menu5</a>
+                    <ul class="submenu">
+                        <li><a href="">menu5.1</a></li>
+                        <li><a href="">menu5.2</a></li>
+                        <li><a href="">menu5.3</a></li>
+                    </ul></li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>
